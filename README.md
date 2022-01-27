@@ -14,17 +14,7 @@ I also used various set of icons to portray the functionality of file menu optio
 
 For the color combination, I choose white for the drawing zone and default color (gray) for the toolbox.
 
-
-
-
- 
-
-	
- 
-
-			
-			Figure 1: User interface of paint application
-
+![User interface of paint application](Documentation-Images/Figure1.png)			
 
 Brush: After creating overall UI which includes drawing zone, it is absolutely imperative to have a brush to draw in our paint application. For that in my application, I have created brush which function with the mouse events like mousePressEvent(), mouseMoveEvent() and mouseReleaseEvent(). 
 
@@ -32,9 +22,7 @@ All features:
 
 File menu:
 
-
- 
-Figure 2: File menu:
+![File Menu](Documentation-Images/Figure2.png)
 
 Functionality:
 The main function of this is to save the drawing, open pervious drawing project, clear the canvas and terminate the program. There are overall 4 option and they are:
@@ -51,9 +39,7 @@ Style: The styling is default here.
 
 Help menu:
 
-  
-
-	Figure 03: Help menu
+![Help Menu](Documentation-Images/Figure3.png)
 
 Functionality: The help menu bar is fully working. When it is clicked, two option is furthered appeared which are:
 	1) About: It displays the information about our paint application. The shortcut to access this option is by pressing Control and I at the same time in the keyboard.
@@ -68,9 +54,7 @@ Style: The styling of this menu bar is also default.
 
 Brush Color ( showColorPrompt() ) : 
 
- 		 
-	 Figure 4a: Brush Color		       Figure 4b: QColorDialog
-
+![Brush Color](Documentation-Images/Figure4.png)
 
 Functionality: The brush color widget is perfectly working in our application. The main functionality of the brush color is draw in canvas with several colors. This functionality is possible by using QColorDiaglog which make possible to choose any selection of color as per users need.
 
@@ -83,9 +67,7 @@ Style: For the styling department, whenever user chooses color from QColorDialog
 
 Brush Thickness ( setBrushSlider() ) : 
 
- 
-Figure 05: Brush Thickness
-
+![Brush Thickness](Documentation-Images/Figure5.png) 
 
 Functionality: The main function of this widget is to increase and decrease the size of brush thickness with the help of QSlider. 
 
@@ -98,8 +80,7 @@ Style: The style for the brush thickness is default because it gives minimalist 
 
 Brush line type ( setBrushStyle() )
 
- 
-Figure 06: Brush line types
+![Brush Line Types](Documentation-Images/Figure6.png)  
 
 Functionality: The main function of this widget the brush line style. Here, we have three variation of brush line type to choose from via QRadioButton. They are: 
 										1) Solid 
@@ -107,8 +88,7 @@ Functionality: The main function of this widget the brush line style. Here, we h
 										3) Dot
 
 	
- 
-     Figure 6a: Brush line types in action
+ ![Brush Line Types Usage](Documentation-Images/Figure6a.png)
 
 Location: The Brush line type widget is situated at the right corner of our paint application just below the brush thickness widget inside Toolbar according to figure 1. 
 
@@ -119,9 +99,7 @@ Style: For the styling I have added image in each radio button which represents 
 
 Brush cap type( setBrushCap() ):
 
-         
-Figure 07: Brush Cap type  
-
+![Brush Cap Type](Documentation-Images/Figure7.png)          
 
 Functionality: The main function of this widget is change brush cap type. Here, we have three types of brush cap type to choose from via QRadioButton. And they are: Square, Flat and Round.
 
@@ -134,8 +112,7 @@ Style: The style for the brush cap type is default radio button and text.
 
 Brush join type( setBrushJoin() ):
 
-         
-Figure 08: Brush join type  
+![Brush Join Type](Documentation-Images/Figure8.png)       
 
 
 Functionality: The main function of this widget is change brush join type in our paint application with the user of QRadioButton. The types of join which is used are: Round, Miter and Bevel.
@@ -151,26 +128,22 @@ Additional functionality:
 The best ability of this paint application is obviously the functionality to draw in the paint application. However, to notch things up I have added two more option to called Rectangle and Ellipse which will help to add rectangle and ellipse shape in our paint application drawing area (canvas). 
 
 Draw menu:
- 
 
-	Figure 09: Draw menu
+![Draw Menu](Documentation-Images/Figure9.png)       
 
 Functionality: The draw menu bar is fully working. When it is clicked, three options are appeared which are:
 
 	1) Point: It is used to draw line in our paint application drawing area.
  
-	
-Figure 9a: Representation of point option in action
+![Representation of point option in action](Documentation-Images/Figure9a.png)       	
 
 	2) Rectangle: It is used to create any type of rectangle in our paint application.
-		 
-Figure 9b: Representation of rectangle option in action
+
+![Representation of rectangle option in action](Documentation-Images/Figure9b.png) 		 
 	
-
 	3) Ellipse: It is used to create any form of ellipse in our paint application.
-		 
-Figure 9c: Representation of ellipse option in action
 
+![Representation of ellipse option in action](Documentation-Images/Figure9c.png)		 
 
 Location: The draw menu is placed below the title bar on the top left corner of the application window after file option.
 
