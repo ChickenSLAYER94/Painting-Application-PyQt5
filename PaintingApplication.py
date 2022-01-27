@@ -1,9 +1,5 @@
 """
 Name: Krishna Ramdam
-Student Number: 3015281
-Assignment: 02
-Subject: HCI & GUI Programming
-Year: Third
 """
 
 import sys
